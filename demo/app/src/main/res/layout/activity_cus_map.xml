@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cusMap" >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Logout"
+            android:layout_alignParentRight="true"
+
+
+            android:background="@drawable/logoutbutton"
+            android:textColor="#F7F9F9"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <com.github.glomadrian.materialanimatedswitch.MaterialAnimatedSwitch
+                android:id="@+id/pin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/distance"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/mylocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="+"
+
+
+            android:layout_alignParentRight="true"
+
+
+
+            android:background="@drawable/location"
+            android:textColor="#F7F9F9"
+            android:layout_above="@+id/btnopen"
+            />
+        <ToggleButton
+            android:id="@+id/pickUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:textOn="PickOn"
+            android:textOff="PickOff"
+
+
+            android:layout_alignParentLeft="true"
+
+
+
+            android:background="@drawable/location"
+            android:textColor="#F7F9F9"
+            android:layout_above="@+id/btnopen"
+            />
+
+
+        <Button
+            android:id="@+id/btnopen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Actions"
+            android:layout_gravity="right"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/roundbutton"
+            android:textColor="#F7F9F9"
+
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</fragment>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btncolor">#76D7C4</color>
+    <color name="stikeyButtonbg">#00897B</color>
+    <color name="stikeyButton">#074d71</color>
+    <color name="logoutcolor">#CD6155</color>
+    <color name="locationbutton">#566573</color>
+</resources>
